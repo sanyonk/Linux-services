@@ -4,7 +4,7 @@ import datetime
 
 host = socket.gethostname()
 port = 1303
-dt = datetime.datetime.now()
+
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
